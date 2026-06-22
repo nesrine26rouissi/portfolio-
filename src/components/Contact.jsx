@@ -34,8 +34,8 @@ const contactLinks = [
       </svg>
     ),
     label: "LinkedIn",
-    value: "linkedin.com/in/nadhmi-rouissi",
-    href: "https://linkedin.com/in/nadhmi-rouissi",
+    value: "linkedin.com/in/rouissi-nadhmi-948807398",
+    href: "https://linkedin.com/in/rouissi-nadhmi-948807398",
     color: "#0077b5",
     description: "Connect professionally",
   },
@@ -251,7 +251,7 @@ export default function Contact() {
                   </span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/nadhmi-rouissi"
+                  href="https://linkedin.com/in/rouissi-nadhmi-948807398"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline"
