@@ -78,6 +78,11 @@ body::before {
   top: 50%; left: 40%;
   animation-delay: -3s;
 }
+@media (max-width: 768px) {
+  .orb-1 { width: 300px; height: 300px; top: -80px; left: -80px; }
+  .orb-2 { width: 250px; height: 250px; }
+  .orb-3 { width: 200px; height: 200px; }
+}
 
 @keyframes floatOrb {
   from { transform: translate(0, 0) scale(1); }
@@ -432,8 +437,172 @@ body::before {
   box-shadow: 0 0 20px rgba(0,245,255,0.08);
 }
 
+/* ─── MOBILE HAMBURGER MENU ──────────────────────────── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  z-index: 200;
+}
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #94a3b8;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+  background: var(--cyan);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+  background: var(--cyan);
+}
+
+/* Mobile dropdown menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 8, 20, 0.97);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  z-index: 150;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.mobile-menu.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.mobile-menu a {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.25s;
+  letter-spacing: -0.02em;
+}
+.mobile-menu a:hover,
+.mobile-menu a:active {
+  color: var(--cyan);
+}
+
 /* ─── MOBILE NAV ─────────────────────────────────────── */
 @media (max-width: 768px) {
-  .nav-links { display: none; }
+  .nav-links { display: none !important; }
+  .nav-cta-buttons { display: none !important; }
+  .hamburger { display: flex; }
   .section-wrapper { padding: 80px 16px; }
+
+  /* Hero: stack vertically */
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+  .hero-avatar-col {
+    order: -1;
+    align-items: center !important;
+  }
+  .hero-avatar-col img,
+  .hero-avatar-col .avatar-fallback {
+    width: clamp(140px, 40vw, 180px) !important;
+    height: clamp(140px, 40vw, 180px) !important;
+  }
+  .hero-stats-grid {
+    min-width: unset !important;
+    width: 100%;
+  }
+  .hero-cta-row {
+    justify-content: center;
+  }
+  .hero-social-row {
+    justify-content: center;
+  }
+  .hero-bio {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* About: stack to 1 col */
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  /* Skills: tabs wrap + card */
+  .skills-card {
+    padding: 24px 16px !important;
+  }
+  .skills-bars-grid {
+    grid-template-columns: 1fr !important;
+    gap: 4px 0 !important;
+  }
+
+  /* Projects: icons wrap, detail adapts */
+  .projects-icon-row {
+    gap: 24px !important;
+    flex-wrap: wrap !important;
+  }
+  .project-contributions-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+  .project-detail-inner {
+    padding: 20px 16px !important;
+  }
+  .project-header-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  /* Experience */
+  .experience-top-row {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  .experience-period {
+    text-align: left !important;
+  }
+  .experience-card {
+    padding: 24px 20px !important;
+  }
+
+  /* Education: stack */
+  .education-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  /* Contact: stack */
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+
+  /* Associative */
+  .associative-grid {
+    grid-template-columns: 1fr !important;
+  }
 }

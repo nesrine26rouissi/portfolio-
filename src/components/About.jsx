@@ -62,6 +62,7 @@ export default function About() {
         </div>
 
         <div
+          className="about-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",

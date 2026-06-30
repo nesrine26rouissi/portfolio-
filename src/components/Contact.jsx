@@ -197,7 +197,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, alignItems: "start" }}>
+        <div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, alignItems: "start" }}>
 
           {/* LEFT — Contact cards */}
           <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>

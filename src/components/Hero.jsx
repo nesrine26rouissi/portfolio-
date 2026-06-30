@@ -193,6 +193,7 @@ export default function Hero() {
         }}
       >
         <div
+          className="hero-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr auto",
@@ -279,7 +280,7 @@ export default function Hero() {
 
             {/* Bio */}
             <p
-              className="animate-fadeInUp delay-300"
+              className="animate-fadeInUp delay-300 hero-bio"
               style={{
                 color: "#64748b",
                 lineHeight: 1.8,
@@ -299,7 +300,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div
-              className="animate-fadeInUp delay-400"
+              className="animate-fadeInUp delay-400 hero-cta-row"
               style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 44 }}
             >
               <a href="#projects" className="btn-primary">
@@ -325,7 +326,7 @@ export default function Hero() {
 
             {/* Social Links */}
             <div
-              className="animate-fadeInUp delay-500"
+              className="animate-fadeInUp delay-500 hero-social-row"
               style={{ display: "flex", gap: 12 }}
             >
               {socialLinks.map(({ label, href, icon }) => (
@@ -369,7 +370,7 @@ export default function Hero() {
 
           {/* RIGHT — Avatar */}
           <div
-            className="animate-fadeInRight"
+            className="animate-fadeInRight hero-avatar-col"
             style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 32 }}
           >
             {/* Avatar */}
@@ -419,7 +420,7 @@ export default function Hero() {
 
             {/* Stats */}
             <div
-              className="glass"
+              className="glass hero-stats-grid"
               style={{
                 padding: "20px 28px",
                 display: "grid",

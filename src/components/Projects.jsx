@@ -161,9 +161,9 @@ function ProjectDetail({ project }) {
       {/* Gradient top bar */}
       <div style={{ height: 5, background: project.gradient, boxShadow: `0 0 20px ${project.accentColor}50` }} />
 
-      <div style={{ padding: "36px 40px" }}>
+      <div style={{ padding: "36px 40px" }} className="project-detail-inner">
         {/* Header */}
-        <div style={{ display: "flex", alignItems: "flex-start", gap: 20, marginBottom: 28 }}>
+        <div style={{ display: "flex", alignItems: "flex-start", gap: 20, marginBottom: 28 }} className="project-header-row">
           <div style={{ flexShrink: 0 }}>
             {project.icon}
           </div>
@@ -208,7 +208,7 @@ function ProjectDetail({ project }) {
         </div>
 
         {/* Contributions + Features */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28, marginBottom: 32 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28, marginBottom: 32 }} className="project-contributions-grid">
           <div>
             <p style={{
               fontSize: "0.7rem", color: "#475569", fontFamily: "var(--font-mono)",
@@ -298,6 +298,7 @@ export default function Projects() {
             transform: inView ? "translateY(0)" : "translateY(20px)",
             transition: "all 0.7s ease 0.2s",
           }}
+          className="projects-icon-row"
         >
           {projects.map((project, i) => (
             <div

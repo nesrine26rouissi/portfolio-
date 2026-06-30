@@ -93,6 +93,7 @@ export default function Education() {
         </div>
 
         <div
+          className="education-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr",

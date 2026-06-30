@@ -85,7 +85,7 @@ export default function Experience() {
           {experiences.map((exp, index) => (
             <div
               key={exp.role}
-              className="glass"
+              className="glass experience-card"
               style={{
                 padding: "36px",
                 borderColor: `${exp.color}30`,
@@ -96,6 +96,7 @@ export default function Experience() {
             >
               {/* Top Row: Icon, Role, Company, Period */}
               <div
+                className="experience-top-row"
                 style={{
                   display: "flex",
                   alignItems: "flex-start",
@@ -169,7 +170,7 @@ export default function Experience() {
                 </div>
 
                 {/* Period */}
-                <div style={{ textAlign: "right", minWidth: 150 }}>
+                <div className="experience-period" style={{ textAlign: "right", minWidth: 150 }}>
                   <p
                     style={{
                       fontFamily: "var(--font-mono)",

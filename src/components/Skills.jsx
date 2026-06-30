@@ -223,7 +223,7 @@ export default function Skills() {
         {/* Active category card */}
         <div
           ref={cardRef}
-          className="glass"
+          className="glass skills-card"
           style={{
             padding: "40px",
             maxWidth: 800,
@@ -280,6 +280,7 @@ export default function Skills() {
           </div>
 
           <div
+            className="skills-bars-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
