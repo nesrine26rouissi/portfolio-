@@ -16,17 +16,17 @@ function useInView(threshold = 0.2) {
 
 const highlights = [
   { icon: "🎓", label: "Education", value: "ESPRIT Engineering" },
-  { icon: "💡", label: "Specialty", value: "Financial Computing & IS" },
-  { icon: "🌍", label: "Location", value: "Tunisia" },
-  { icon: "🚀", label: "Goal", value: "Innovative Solutions" },
+  { icon: "💡", label: "Specialty", value: "Data Science & BI" },
+  { icon: "🌍", label: "Location", value: "Ariana, Tunisia" },
+  { icon: "🚀", label: "Goal", value: "Data-Driven Innovation" },
 ];
 
 const passions = [
-  { label: "Software Engineering", color: "#8b5cf6" },
+  { label: "Data Science", color: "#8b5cf6" },
+  { label: "Business Intelligence", color: "#00f5ff" },
   { label: "Machine Learning", color: "#ec4899" },
-  { label: "Financial Technology", color: "#10b981" },
-  { label: "Backend Development", color: "#f59e0b" },
-  { label: "Data Analytics", color: "#6366f1" },
+  { label: "Artificial Intelligence", color: "#10b981" },
+  { label: "Healthcare Analytics", color: "#f59e0b" },
 ];
 
 export default function About() {
@@ -104,11 +104,11 @@ export default function About() {
                   marginBottom: 20,
                 }}
               >
-                Passionate about the convergence of technology and finance, I am a{" "}
+                Passionate about the convergence of data and technology, I am a{" "}
                 <span style={{ color: "#a78bfa", fontWeight: 600 }}>
-                  Financial Computing Engineering
+                  Data Science Engineering
                 </span>{" "}
-                student dedicated to developing innovative solutions that bridge business needs with advanced information systems.
+                student dedicated to developing intelligent solutions that bridge business needs with advanced analytics and AI systems.
               </p>
 
               <p
@@ -119,7 +119,7 @@ export default function About() {
                   marginBottom: 20,
                 }}
               >
-                Throughout my academic journey, I have cultivated a strong analytical mindset, problem-solving abilities, and a genuine interest in digital transformation within the financial sector. I am particularly inspired by the role that information systems play in improving operational efficiency, supporting strategic decisions, and driving sustainable innovation across banking and financial services.
+                With a background in Business Computing and Business Intelligence from ESEN, I have cultivated strong expertise in ETL pipelines, Power BI dashboards, predictive modeling, and deep learning. My experience spans internships at STB Bank, AVAXIA, ELITINFO, and upcoming work at EY Tunisia in AI & Data.
               </p>
 
               <p
@@ -129,7 +129,7 @@ export default function About() {
                   fontSize: "0.95rem",
                 }}
               >
-                Driven by curiosity and a commitment to excellence, I continuously seek opportunities to expand my knowledge and contribute to projects that create meaningful value. I am passionate about leveraging technology and innovation to address complex challenges, foster digital transformation, and support the development of efficient and sustainable solutions in an ever-evolving global environment.
+                Driven by curiosity and a commitment to excellence, I continuously seek opportunities to apply data science and BI to real-world challenges — from healthcare AI and medical imaging to enterprise SAP monitoring and financial liquidity optimization. Winner of the HACK EL MAKEN hackathon organized by TICDCE.
               </p>
             </div>
 
@@ -262,7 +262,7 @@ export default function About() {
                     fontFamily: "var(--font-mono)",
                   }}
                 >
-                  rouissinadhmi11@gmail.com
+                  rouissinesrine3@gmail.com
                 </span>
               </div>
 
@@ -270,9 +270,11 @@ export default function About() {
               <div style={{ padding: "20px 20px 24px", fontFamily: "var(--font-mono)", fontSize: "0.82rem" }}>
                 {[
                   { prompt: "$", cmd: " whoami", color: "#00f5ff" },
-                  { output: "Nadhmi Rouissi — Engineering Student", indent: true },
+                  { output: "Nesrine Rouissi — Data Science Engineering Student", indent: true },
                   { prompt: "$", cmd: " echo $SCHOOL", color: "#00f5ff" },
                   { output: "Ecole Supérieure Privée d'Ingénierie et de Technologies - ESPRIT", indent: true },
+                  { prompt: "$", cmd: " echo $OPTION", color: "#00f5ff" },
+                  { output: "Data Science · Business Intelligence · Machine Learning", indent: true },
                   { prompt: "$", cmd: " git status", color: "#00f5ff" },
                   { output: "✓ Open to new opportunities", indent: true, green: true },
                   { prompt: "$", cmd: " _", color: "#00f5ff", blink: true },

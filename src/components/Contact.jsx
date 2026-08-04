@@ -22,8 +22,8 @@ const contactLinks = [
       </svg>
     ),
     label: "Email",
-    value: "rouissinadhmi11@gmail.com",
-    href: "mailto:rouissinadhmi11@gmail.com",
+    value: "rouissinesrine3@gmail.com",
+    href: "mailto:rouissinesrine3@gmail.com",
     color: "#8b5cf6",
     description: "Best for professional inquiries",
   },
@@ -34,8 +34,8 @@ const contactLinks = [
       </svg>
     ),
     label: "LinkedIn",
-    value: "linkedin.com/in/rouissi-nadhmi-948807398",
-    href: "https://linkedin.com/in/rouissi-nadhmi-948807398",
+    value: "linkedin.com/in/nesrine-rouissi-b19614266",
+    href: "https://linkedin.com/in/nesrine-rouissi-b19614266",
     color: "#0077b5",
     description: "Connect professionally",
   },
@@ -46,8 +46,8 @@ const contactLinks = [
       </svg>
     ),
     label: "GitHub",
-    value: "github.com/nadhmi54",
-    href: "https://github.com/nadhmi54",
+    value: "github.com/Nesnousa",
+    href: "https://github.com/Nesnousa",
     color: "#00f5ff",
     description: "Browse my repositories",
   },
@@ -58,8 +58,8 @@ const contactLinks = [
       </svg>
     ),
     label: "Location",
-    value: "Tunis, Tunisia",
-    href: "https://maps.google.com/?q=Tunis,Tunisia",
+    value: "Ennasr 2, Ariana, Tunisia",
+    href: "https://maps.google.com/?q=Ennasr+Ariana,Tunisia",
     color: "#ec4899",
     description: "Based in North Africa",
   },
@@ -234,12 +234,12 @@ export default function Contact() {
               </h3>
 
               <p style={{ color: "#475569", lineHeight: 1.75, fontSize: "0.9rem", marginBottom: 32 }}>
-                Whether you have a project idea, an internship opportunity, or want to discuss the future of fintech and blockchain — I'd love to connect!
+                Whether you have a project idea, an internship opportunity, or want to discuss data science, BI, and AI — I'd love to connect!
               </p>
 
               <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
                 <a
-                  href="mailto:rouissinadhmi11@gmail.com"
+                  href="mailto:rouissinesrine3@gmail.com"
                   className="btn-primary"
                   style={{ justifyContent: "center", fontSize: "0.9rem" }}
                 >
@@ -251,7 +251,7 @@ export default function Contact() {
                   </span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/rouissi-nadhmi-948807398"
+                  href="https://linkedin.com/in/nesrine-rouissi-b19614266"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-outline"
@@ -332,7 +332,7 @@ export default function Contact() {
               NR
             </div>
             <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "#334155" }}>
-              Nadhmi Rouissi
+              Nesrine Rouissi
             </span>
           </div>
           <p style={{ fontSize: "0.78rem", color: "#1e293b", fontFamily: "var(--font-mono)" }}>

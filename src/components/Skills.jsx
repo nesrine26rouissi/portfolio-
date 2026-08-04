@@ -20,70 +20,73 @@ const skillCategories = [
     title: "Programming Languages",
     color: "#8b5cf6",
     skills: [
-      { name: "Java", level: 85 },
-      { name: "Python", level: 80 },
-      { name: "JavaScript", level: 75 },
-      { name: "C#", level: 65 },
-      { name: "PHP", level: 60 },
-      { name: "SQL", level: 78 },
-      { name: "R", level: 65 },
+      { name: "Python", level: 88 },
+      { name: "R", level: 82 },
+      { name: "SQL", level: 85 },
+      { name: "JavaScript", level: 72 },
+      { name: "C++", level: 68 },
+      { name: "PHP", level: 65 },
+      { name: "HTML/CSS", level: 78 },
     ],
   },
   {
-    icon: "🎨",
-    title: "Frontend Development",
+    icon: "📊",
+    title: "Business Intelligence & Data",
     color: "#00f5ff",
     skills: [
-      { name: "HTML/CSS", level: 80 },
-      { name: "JavaScript", level: 75 },
-      { name: "Angular", level: 65 },
-      { name: "React", level: 60 },
+      { name: "Power BI", level: 90 },
+      { name: "DAX", level: 85 },
+      { name: "Power Query", level: 88 },
+      { name: "ETL", level: 85 },
+      { name: "Dimensional Modeling", level: 82 },
+      { name: "Heflo", level: 70 },
+    ],
+  },
+  {
+    icon: "🤖",
+    title: "AI & Machine Learning",
+    color: "#ec4899",
+    skills: [
+      { name: "TensorFlow/Keras", level: 82 },
+      { name: "Scikit-learn", level: 85 },
+      { name: "Deep Learning", level: 80 },
+      { name: "NLP", level: 75 },
+      { name: "CRISP-DM", level: 88 },
+      { name: "Medical Imaging", level: 78 },
     ],
   },
   {
     icon: "🔧",
-    title: "Backend Development",
-    color: "#ec4899",
+    title: "Frameworks & Libraries",
+    color: "#10b981",
     skills: [
-      { name: "Spring Boot", level: 82 },
-      { name: "REST APIs", level: 85 },
-      { name: "Symfony", level: 65 },
-      { name: "JavaFX", level: 60 },
+      { name: "Node.js", level: 72 },
+      { name: "Symfony", level: 68 },
+      { name: "JavaFX", level: 65 },
+      { name: "FlutterFlow", level: 70 },
     ],
   },
   {
     icon: "🗄️",
     title: "Databases",
-    color: "#10b981",
-    skills: [
-      { name: "PostgreSQL", level: 78 },
-      { name: "MySQL", level: 75 },
-      { name: "SQL Server", level: 65 },
-    ],
-  },
-  {
-    icon: "☁️",
-    title: "DevOps & Cloud",
     color: "#f59e0b",
     skills: [
-      { name: "Docker", level: 75 },
-      { name: "Kubernetes", level: 55 },
-      { name: "CI/CD", level: 65 },
-      { name: "Prometheus", level: 50 },
-      { name: "Grafana", level: 50 },
-      { name: "SonarQube", level: 60 },
+      { name: "Oracle", level: 78 },
+      { name: "MongoDB", level: 75 },
+      { name: "MySQL", level: 80 },
     ],
   },
   {
-    icon: "🤖",
-    title: "Machine Learning",
+    icon: "🛠️",
+    title: "Tools & Methodologies",
     color: "#6366f1",
     skills: [
-      { name: "Scikit-Learn", level: 78 },
-      { name: "Pandas / NumPy", level: 80 },
-      { name: "PCA / Clustering", level: 72 },
-      { name: "SMOTE", level: 65 },
-      { name: "Jupyter", level: 80 },
+      { name: "Git", level: 85 },
+      { name: "VS Code", level: 90 },
+      { name: "UML", level: 78 },
+      { name: "Merise", level: 72 },
+      { name: "Statistical Analysis", level: 85 },
+      { name: "StarUML", level: 70 },
     ],
   },
 ];
@@ -176,8 +179,8 @@ export default function Skills() {
               lineHeight: 1.7,
             }}
           >
-            Technologies and tools I use to design, develop, and deploy
-            production-grade software solutions.
+            Technologies and tools I use to design, analyze, and deploy
+            data-driven solutions and intelligent systems.
           </p>
         </div>
 

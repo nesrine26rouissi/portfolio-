@@ -35,7 +35,7 @@ export default function Navbar() {
     { href: "#associative", label: "Associative" },
     { href: "#education",   label: "Education"   },
     { href: "#contact",     label: "Contact"     },
-    { href: "/Nadhmi_ROUISSI_CV.pdf", label: "CV", external: true },
+    { href: "/Nesrine_ROUISSI_CV.pdf", label: "CV", external: true },
   ];
 
   const handleLinkClick = () => setMenuOpen(false);
@@ -86,7 +86,7 @@ export default function Navbar() {
               NR
             </span>
             <span className="gradient-text-2" style={{ letterSpacing: "-0.02em" }}>
-              Nadhmi<span style={{ color: "#fff", WebkitTextFillColor: "#fff" }}> Rouissi</span>
+              Nesrine<span style={{ color: "#fff", WebkitTextFillColor: "#fff" }}> Rouissi</span>
             </span>
           </a>
 
@@ -134,7 +134,7 @@ export default function Navbar() {
           {/* CTA Buttons (desktop) */}
           <div className="nav-cta-buttons" style={{ display: "flex", gap: 12, alignItems: "center" }}>
             <a
-              href="/Nadhmi_ROUISSI_CV.pdf"
+              href="/Nesrine_ROUISSI_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline"
@@ -143,7 +143,7 @@ export default function Navbar() {
               CV
             </a>
             <a
-              href="https://github.com/nadhmi54"
+              href="https://github.com/Nesnousa"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -188,7 +188,7 @@ export default function Navbar() {
         {/* CTA buttons inside mobile menu */}
         <div style={{ display: "flex", gap: 12, marginTop: 8 }}>
           <a
-            href="/Nadhmi_ROUISSI_CV.pdf"
+            href="/Nesrine_ROUISSI_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline"
@@ -198,7 +198,7 @@ export default function Navbar() {
             CV
           </a>
           <a
-            href="https://github.com/nadhmi54"
+            href="https://github.com/Nesnousa"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

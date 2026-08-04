@@ -16,29 +16,53 @@ function useInView(threshold = 0.15) {
 
 const experiences = [
   {
-    role: "Credit Risk Analysis Intern",
+    role: "Data Science Engineering Intern",
+    company: "EY Tunisie (Ernst & Young)",
+    type: "Internship",
+    period: "Jun 2026 — Aug 2026",
+    duration: "2 mos",
+    description:
+      "Upcoming internship in the AI & Data department at EY Tunisia. I will work on data science and AI projects, applying machine learning and analytics to solve real-world business challenges in a leading consulting environment.",
+    skills: ["Data Science", "Machine Learning", "AI", "Analytics", "Python", "Business Consulting"],
+    color: "#f59e0b",
+    icon: "🏢"
+  },
+  {
+    role: "Predictive Analytics Intern",
     company: "STB Bank",
     arabicName: "الشركة التونسية للبنك",
     type: "Internship",
-    period: "Jun 2025 — Aug 2025",
-    duration: "3 mos",
+    period: "Jun 2025 — Jul 2025",
+    duration: "2 mos",
     description:
-      "During my internship in the Credit Risk Department at STB Bank, I participated in a credit risk analysis and data modeling project focused on enhancing financial assessment and decision-making processes. I worked on cleaning and transforming banking datasets, automating the computation of key financial indicators, and conducting statistical analyses to identify significant predictive variables. Additionally, I integrated multiple data sources into a unified analytical dataset and documented the entire data preparation pipeline, strengthening my expertise in financial data analytics and risk modeling within the banking industry.",
-    skills: ["Credit Risk", "Data Modeling", "Financial Indicators", "Data Pipeline", "Python / SQL", "Risk Assessment"],
+      "Worked on predictive optimization of cash flows and agency liquidity at STB Bank. I contributed to building analytical models and dashboards to improve treasury management and financial decision-making across bank branches.",
+    skills: ["Predictive Analytics", "Cash Flow Optimization", "Liquidity Management", "Python", "SQL", "Financial Modeling"],
     color: "#ec4899",
     icon: "🏦"
   },
   {
-    role: "IT Asset Management & Help Desk Intern",
-    company: "Express Display",
+    role: "BI Developer Intern",
+    company: "AVAXIA",
+    type: "Internship",
+    period: "Feb 2024 — May 2024",
+    duration: "4 mos",
+    description:
+      "Designed and developed a BI solution for SAP systems monitoring at AVAXIA. I built ETL pipelines, data models, and interactive dashboards to track SAP performance metrics and support operational decision-making.",
+    skills: ["Power BI", "SAP Monitoring", "ETL", "BI Development", "Data Modeling", "Dashboard Design"],
+    color: "#00f5ff",
+    icon: "📊"
+  },
+  {
+    role: "BI Reporting Intern",
+    company: "ELITINFO",
     type: "Internship",
     period: "Jul 2023",
     duration: "1 mo",
     description:
-      "During my internship at Express Display, I gained hands-on experience with GLPI, an IT Asset Management and Help Desk solution. I was involved in asset inventory management, ticket handling, system configuration, reporting, and user support. Additionally, I had the opportunity to observe recruitment activities, including CV screening, interviews, technical assessments, and onboarding procedures. This experience strengthened my understanding of IT service management and business operations.",
-    skills: ["GLPI", "Asset Management", "IT Support", "ITSM", "Recruitment Observation", "Business Operations"],
+      "Introduction to SAGE BI REPORTING functionalities and configurations at ELITINFO. I learned enterprise reporting tools, data extraction techniques, and BI platform setup for business analytics.",
+    skills: ["SAGE BI Reporting", "Business Intelligence", "Reporting", "Data Extraction", "BI Configuration"],
     color: "#8b5cf6",
-    icon: "🖥️"
+    icon: "📈"
   }
 ];
 

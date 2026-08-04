@@ -16,28 +16,28 @@ function useInView(threshold = 0.15) {
 
 const activities = [
   {
-    role: "Founder",
-    organization: "Tunipreneurs Club at ESPRIT",
-    type: "Club Leadership",
-    period: "2025 — 2026",
-    duration: "1 yr",
+    role: "Middle Manager — MoGX+TM Specialist",
+    organization: "AIESEC University",
+    type: "Leadership",
+    period: "2023 — 2025",
+    duration: "2 yrs",
     description:
-      "Founded and spearheaded the Tunipreneurs Club at ESPRIT to cultivate an entrepreneurial mindset, stimulate innovation, and enhance leadership skills among engineering students. Organized structured workshops, expert-led panels, networking sessions, and startup ideation hackathons, serving as a launchpad for future student-led ventures.",
-    skills: ["Club Leadership", "Strategic Planning", "Entrepreneurship", "Event Organization", "Public Relations", "Team Management"],
+      "Active member of AIESEC University's IR and Data department, serving as MoGX+TM Specialist (Marketing Outgoing Global Volunteer / Talent Management Specialist & Information Management). I contributed to international volunteer programs, talent management, and data-driven decision-making within the organization.",
+    skills: ["Talent Management", "Information Management", "Marketing", "Leadership", "International Programs", "Data Management"],
     color: "#10b981",
-    icon: "🚀"
+    icon: "🌍"
   },
   {
-    role: "Member",
-    organization: "Interact Club Hammam-Lif",
-    type: "Part-time",
-    period: "Jul 2020 — Jul 2021",
-    duration: "1 yr 1 mo",
+    role: "Treasurer",
+    organization: "ESEN Club Android",
+    type: "Club Leadership",
+    period: "2022 — 2024",
+    duration: "2 yrs",
     description:
-      "As an active member of Interact Club Hammam-Lif, I participated in various community service and social impact initiatives aimed at supporting local communities and promoting civic engagement. I contributed to the planning and organization of volunteer activities, events, and awareness campaigns while collaborating closely with fellow members to ensure their successful execution. Through my continuous involvement, I developed strong teamwork, communication, and leadership skills. In recognition of my commitment and contributions, I was awarded the 'Member of the Month' distinction in August 2020.",
-    skills: ["Community Service", "Civic Engagement", "Event Planning", "Teamwork & Collaboration", "Social Impact", "Public Speaking"],
+      "Served as Treasurer of the ESEN Club Android during my Business Computing studies. Managed club finances, organized tech events and workshops, and supported mobile development initiatives among students at the Ecole Supérieure d'Economie Numérique.",
+    skills: ["Financial Management", "Event Organization", "Club Leadership", "Team Coordination", "Mobile Development Community"],
     color: "#00f5ff",
-    icon: "🤝"
+    icon: "📱"
   }
 ];
 

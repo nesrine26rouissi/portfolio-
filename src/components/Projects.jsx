@@ -16,105 +16,96 @@ function useInView(threshold = 0.1) {
 
 const projects = [
   {
-    id: "equa",
-    title: "EQUA",
-    subtitle: "Decentralized Microfinance Ecosystem",
-    type: "Academic Project",
-    role: "Backend Developer",
-    teamSize: "5 Members",
-    gradient: "linear-gradient(135deg, #b8860b, #ffd700, #b8860b)",
-    accentColor: "#ffd700",
-    // Custom EQUA coin icon
+    id: "alia",
+    title: "ALIA",
+    subtitle: "AI Avatar for Medical & Pharmaceutical Excellence",
+    type: "AI / NLP Project",
+    role: "AI Developer",
+    teamSize: "Academic Project",
+    gradient: "linear-gradient(135deg, #8b5cf6, #ec4899)",
+    accentColor: "#8b5cf6",
     icon: (
       <div style={{
-        width: 90, height: 90,
-        borderRadius: "50%",
-        overflow: "hidden",
-        border: "2px solid rgba(255,215,0,0.5)",
-        boxShadow: "0 0 30px rgba(255,215,0,0.3)",
+        width: 90, height: 90, borderRadius: "50%",
+        background: "linear-gradient(135deg, rgba(139,92,246,0.15), rgba(236,72,153,0.2))",
+        border: "2px solid rgba(139,92,246,0.5)",
         display: "flex", alignItems: "center", justifyContent: "center",
-        background: "#050814",
+        boxShadow: "0 0 30px rgba(139,92,246,0.3)",
       }}>
-        <img
-          src="/images/equa.png"
-          alt="EQUA Logo"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        />
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2a2 2 0 012 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 017 7v1a2 2 0 01-2 2h-1v3a2 2 0 01-2 2h-2a2 2 0 01-2-2v-3h-2v3a2 2 0 01-2 2H7a2 2 0 01-2-2v-3H4a2 2 0 01-2-2v-1a7 7 0 017-7h1V5.73A2 2 0 0112 2z" stroke="#8b5cf6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
       </div>
     ),
     description:
-      "A blockchain-powered microfinance platform promoting financial inclusion through accessible, secure, and low-cost financial services. Combines traditional fiat currency management with tokenized digital assets via a dual-wallet architecture.",
-    technologies: ["Java 21", "Spring Boot", "PostgreSQL", "Docker", "Blockchain", "REST API", "Swagger"],
+      "An intelligent conversational AI avatar designed for the pharmaceutical and medical sectors. ALIA enhances medical delegate training and improves interactions with healthcare professionals through natural language understanding and smart dialogue management.",
+    technologies: ["Python", "NLP", "TensorFlow", "Machine Learning", "REST API", "Conversational AI"],
     contributions: [
-      "Backend API Development",
-      "Authentication & Authorization",
-      "Wallet Management Services",
-      "PostgreSQL Integration",
-      "Swagger/OpenAPI Documentation",
+      "Conversational AI Architecture",
+      "NLP Model Integration",
+      "Training Module Design",
+      "Healthcare Domain Adaptation",
+      "User Interaction Flow Design",
     ],
     features: [
-      "Dual-wallet system (EQUA Token + Dinar Wallet)",
-      "TND ↔ EQUA token conversion engine",
-      "Smart contract-based micro-loans",
-      "Peer-to-peer blockchain transactions",
-      "Role-based access control",
+      "Intelligent conversational avatar",
+      "Medical delegate training support",
+      "Healthcare professional interactions",
+      "Pharmaceutical sector specialization",
+      "Natural language understanding",
     ],
-    github: "https://github.com/rayenamer/equa",
-    demo: "/videos/EQUA.mp4",
+    github: "https://github.com/Nesnousa",
+    demo: null,
   },
   {
-    id: "eth",
-    title: "ETH Risk AI",
-    subtitle: "Ethereum Address Risk Prediction",
-    type: "Machine Learning",
+    id: "tb-detect",
+    title: "TB-Detect",
+    subtitle: "Deep Learning Tuberculosis Detection",
+    type: "Medical AI",
     role: "ML Engineer",
-    teamSize: "Solo Project",
-    gradient: "linear-gradient(135deg, #00f5ff, #6366f1)",
+    teamSize: "Academic Project",
+    gradient: "linear-gradient(135deg, #00f5ff, #10b981)",
     accentColor: "#00f5ff",
     icon: (
       <div style={{
         width: 90, height: 90, borderRadius: "50%",
-        background: "linear-gradient(135deg, rgba(0,245,255,0.15), rgba(99,102,241,0.2))",
+        background: "linear-gradient(135deg, rgba(0,245,255,0.15), rgba(16,185,129,0.2))",
         border: "2px solid rgba(0,245,255,0.5)",
         display: "flex", alignItems: "center", justifyContent: "center",
         boxShadow: "0 0 30px rgba(0,245,255,0.3)",
       }}>
         <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#00f5ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </div>
     ),
     description:
-      "ML project focused on detecting fraudulent Ethereum addresses using supervised and unsupervised learning. Combines classification, clustering, anomaly detection, dimensionality reduction, and explainability methods for blockchain security.",
-    technologies: ["Python", "Scikit-Learn", "Pandas", "NumPy", "SMOTE", "PCA", "KMeans", "DBSCAN", "Matplotlib"],
+      "A deep learning system for automatic tuberculosis detection on chest X-rays. Designed for rapid and accurate screening, even in resource-limited environments, using convolutional neural networks trained on medical imaging datasets.",
+    technologies: ["Python", "TensorFlow/Keras", "Deep Learning", "OpenCV", "NumPy", "Medical Imaging"],
     contributions: [
-      "Exploratory Data Analysis (EDA)",
-      "Feature Engineering",
-      "SMOTE Class Balancing",
-      "PCA Dimensionality Reduction",
-      "Model Evaluation & Visualization",
+      "CNN Model Architecture",
+      "Medical Image Preprocessing",
+      "Model Training & Evaluation",
+      "Performance Optimization",
+      "Deployment Interface Design",
     ],
     features: [
-      "Fraudulent Ethereum address detection",
-      "KMeans & DBSCAN anomaly detection",
-      "Class imbalance handling with SMOTE",
-      "Risk factor interpretation",
-      "Performance comparison of ML models",
+      "Automated TB detection on X-rays",
+      "High-accuracy deep learning model",
+      "Resource-limited environment support",
+      "Fast screening capabilities",
+      "Medical image classification pipeline",
     ],
-    github: "https://github.com/nadhmi54/Ethereum-Address-Risk-Prediction-Classification",
+    github: "https://github.com/Nesnousa",
     demo: null,
   },
   {
-    id: "capm",
-    title: "CAPM Liquidity",
-    subtitle: "US Stock Market Quantitative Analysis",
-    type: "Financial Engineering",
-    role: "Quantitative Analyst",
-    teamSize: "Academic Research",
+    id: "hospital-bi",
+    title: "Hospital BI Dashboards",
+    subtitle: "Complete Healthcare Analytics Solution",
+    type: "Business Intelligence",
+    role: "BI Developer",
+    teamSize: "Academic Project",
     gradient: "linear-gradient(135deg, #ec4899, #f59e0b)",
     accentColor: "#ec4899",
     icon: (
@@ -126,28 +117,31 @@ const projects = [
         boxShadow: "0 0 30px rgba(236,72,153,0.3)",
       }}>
         <svg width="44" height="44" viewBox="0 0 24 24" fill="none">
-          <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke="#ec4899" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <rect x="3" y="3" width="7" height="9" rx="1" stroke="#ec4899" strokeWidth="1.5"/>
+          <rect x="14" y="3" width="7" height="5" rx="1" stroke="#ec4899" strokeWidth="1.5"/>
+          <rect x="14" y="12" width="7" height="9" rx="1" stroke="#ec4899" strokeWidth="1.5"/>
+          <rect x="3" y="16" width="7" height="5" rx="1" stroke="#ec4899" strokeWidth="1.5"/>
         </svg>
       </div>
     ),
     description:
-      "Empirical study of liquidity-adjusted CAPM models on 30 DJIA stocks. Evaluates how liquidity costs and risk influence asset pricing using econometric modeling, panel regressions, and financial data from Yahoo Finance.",
-    technologies: ["R", "RStudio", "CAPM", "Econometrics", "Panel Regression", "Yahoo Finance", "R Markdown"],
+      "A complete BI solution for hospital management using Power BI. Features snowflake data modeling, ETL processes, and interactive dashboards for real-time KPI tracking — patient satisfaction, occupancy rates, and costs per service — tailored for different decision-maker profiles.",
+    technologies: ["Power BI", "DAX", "Power Query", "ETL", "SQL", "Dimensional Modeling"],
     contributions: [
-      "Amihud Illiquidity Ratio implementation",
-      "Panel regression modeling",
-      "CAPM & LACAPM implementation",
-      "Robust statistical testing",
-      "Automated R Markdown reporting",
+      "Snowflake Data Modeling",
+      "ETL Pipeline Design",
+      "Interactive Dashboard Development",
+      "KPI Definition & Tracking",
+      "Multi-profile Decision Support",
     ],
     features: [
-      "Standard CAPM implementation",
-      "Liquidity-Adjusted CAPM (LACAPM)",
-      "FARM model evaluation",
-      "Liquidity premium analysis",
-      "Panel econometric analysis",
+      "Real-time hospital KPI monitoring",
+      "Patient satisfaction tracking",
+      "Occupancy rate analytics",
+      "Cost per service analysis",
+      "Role-based dashboard views",
     ],
-    github: "https://github.com/nadhmi54",
+    github: "https://github.com/Nesnousa/poc-etl-ia",
     demo: null,
   },
 ];
@@ -400,7 +394,7 @@ export default function Projects() {
           textAlign: "center", marginTop: 48,
           opacity: inView ? 1 : 0, transition: "opacity 0.7s ease 0.6s",
         }}>
-          <a href="https://github.com/nadhmi54" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/Nesnousa" target="_blank" rel="noopener noreferrer"
             className="btn-outline" style={{ fontSize: "0.88rem" }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style={{ marginRight: 8 }}>
               <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
