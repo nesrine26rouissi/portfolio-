@@ -110,6 +110,19 @@ export const languages = [
 export const certifications = ["Applications of AI for Anomaly Detection", "Fundamentals of Deep Learning"];
 
 export const beyond = [
-  { t: "ESEN Android Club", r: "Treasurer" },
-  { t: "AIESEC University", r: "Member", d: "IR and Data Department, Middle Manager MoGX+TM Specialist_IM (outgoing global volunteer/talent marketing, talent management, information management)." },
+  {
+    org: "ESEN Android Club",
+    role: "Treasurer",
+    school: "ESEN, University of Manouba",
+    tags: ["Treasury", "Student club", "Mobile development community"],
+    icon: "◈",
+  },
+  {
+    org: "AIESEC University",
+    role: "Member",
+    school: "IR and Data Department",
+    d: "Middle Manager MoGX+TM Specialist_IM (outgoing global volunteer/talent marketing, talent management, information management).",
+    tags: ["IR & Data", "Talent management", "Information management", "Global volunteer programs"],
+    icon: "◉",
+  },
 ];

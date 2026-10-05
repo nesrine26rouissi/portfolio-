@@ -99,7 +99,7 @@ function useActive(ids) {
 
 const NAV = [
   ["about", "About"], ["experience", "Experience"], ["projects", "Projects"],
-  ["skills", "Skills"], ["education", "Education"], ["contact", "Contact"],
+  ["skills", "Skills"], ["education", "Education"], ["associative", "Associative"], ["contact", "Contact"],
 ];
 
 function Section({ id, num, title, children }) {
@@ -263,7 +263,7 @@ function Skills() {
 
 function Education() {
   return (
-    <Section id="education" num="05" title="Education & more">
+    <Section id="education" num="05" title="Education">
       <div className="edu-grid">
         <ol className="timeline">
           {education.map((e, k) => (
@@ -288,13 +288,29 @@ function Education() {
             <h4>Certifications</h4>
             <ul className="plain">{certifications.map((c) => (<li key={c}>{c}</li>))}</ul>
           </Reveal>
-          <Reveal className="panel" delay={240}>
-            <h4>Beyond class</h4>
-            <ul className="plain">
-              {beyond.map((b) => (<li key={b.t}><strong>{b.t}</strong> — {b.r}{b.d && <small>{b.d}</small>}</li>))}
-            </ul>
-          </Reveal>
         </aside>
+      </div>
+    </Section>
+  );
+}
+
+function Associative() {
+  return (
+    <Section id="associative" num="06" title="Associative life">
+      <Reveal as="p" className="assoc-intro">
+        Beyond the classroom, I get involved in student communities — managing a club's finances and working on data and talent programs with an international youth organization.
+      </Reveal>
+      <div className="assoc">
+        {beyond.map((b, k) => (
+          <Reveal key={b.org} delay={k * 140} className="assoc-card">
+            <span className="assoc-ico" aria-hidden="true">{b.icon}</span>
+            <p className="meta">{b.role}</p>
+            <h3>{b.org}</h3>
+            <p className="assoc-school">{b.school}</p>
+            {b.d && <p className="assoc-d">{b.d}</p>}
+            <div className="chips">{b.tags.map((t, j) => (<span key={t} style={{ "--j": j }}>{t}</span>))}</div>
+          </Reveal>
+        ))}
       </div>
     </Section>
   );
@@ -337,6 +353,7 @@ export default function App() {
         <Projects />
         <Skills />
         <Education />
+        <Associative />
         <Contact />
       </main>
     </>

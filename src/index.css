@@ -208,3 +208,15 @@ li.rv{list-style:none}
 }
 html,body{overflow-x:clip}
 @media (max-width:560px){.spark.s2{left:-6px}.spark.s3{right:-6px}.o2{inset:-30px -20px}.o1{inset:-18px -12px}.blob{max-width:60vw}.b1{left:-30px}.b2{right:-20px}}
+
+/* associative life */
+.assoc-intro{max-width:62ch;color:var(--soft);margin:-8px 0 26px;font-size:1.05rem}
+.assoc{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.assoc-card{position:relative;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .35s}
+.assoc-card:hover{transform:translateY(-5px);border-color:var(--rose);box-shadow:0 24px 44px -28px var(--shadow)}
+.assoc-card::after{content:"";position:absolute;right:-60px;top:-60px;width:170px;height:170px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--rose) 22%,transparent),transparent 70%)}
+.assoc-ico{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--bg2);color:var(--rose);font-size:1.3rem;margin-bottom:14px}
+.assoc-card h3{font-size:1.45rem;margin:4px 0 2px}.assoc-school{color:var(--rose);font-weight:700;font-size:.9rem}
+.assoc-d{color:var(--soft);font-size:.95rem;margin-top:10px}
+.assoc-card .chips{margin-top:16px}
+@media (max-width:860px){.assoc{grid-template-columns:1fr}}
