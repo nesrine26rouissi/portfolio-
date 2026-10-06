@@ -7,17 +7,17 @@ export const profile = {
   title: "Computer Engineering Student",
   tracks: ["Business Intelligence", "Data Science", "Artificial Intelligence"],
   email: "rouissinesrine3@gmail.com",
-  phone: "+33 07 69 80 46 05",
-  address: "18 Rue Paul Bert, 49100 Angers, France",
+  phone: "+33 7 69 80 46 05",
+  address: "Angers, France",
   linkedin: "https://linkedin.com/in/nesrine-rouissi-b19614266",
   github: GH,
   about:
-    "Third-year Computer Engineering student (final-year exchange semester at ESEO Angers) specializing in Business Intelligence and Data Science. Hands-on experience across Data Science, Business Intelligence and Artificial Intelligence projects, designing BI solutions and predictive models that turn complex data into actionable insights, with a focus on applying generative AI to Data & BI workflows.",
+    "Computer engineering student (ESPRIT) specializing in Data Science, in my final year through an exchange semester at ESEO Angers. I design predictive modeling, Business Intelligence and generative AI solutions that answer a concrete business need. Seeking a 6-month end-of-studies internship starting February 2027.",
 };
 
 export const facts = [
   { n: "4", label: "Internships" },
-  { n: "9", label: "Projects" },
+  { n: "7", label: "Projects" },
   { n: "1st", label: "Hackathon prize" },
   { n: "3", label: "Languages" },
 ];
@@ -79,26 +79,22 @@ export const projects = [
   { title: "Breast Cancer Detection", sub: "CRISP-DM predictive model", cat: "AI", d: "Predictive model following the CRISP-DM methodology, comparison of several algorithms and deployment of a classifier through a simple interface.", href: `${GH}/breast-cancer-screening` },
   { title: "Overfitted — AI Mode", sub: "Intelligent e-commerce platform", cat: "AI", d: "Combines computer vision, NLP, and generative AI for personalized recommendations, virtual try-on, and content generation.", size: "wide" },
   { title: "Hospital Dashboards", sub: "Power BI for hospital management", cat: "BI", d: "Complete BI solution: snowflake modeling, ETL processes and interactive dashboards tracking KPIs — patient satisfaction, occupancy rate, cost per service." },
-  { title: "Student Performance Analysis", sub: "Statistics in R", cat: "BI", d: "Statistical analysis in R, identification of key factors and predictive models to detect at-risk students." },
-  { title: "Alzheimer's Disease Detection", sub: "MLOps pipeline · group project", cat: "AI", d: "Contributed to a group MLOps pipeline for Alzheimer's disease classification: experiment tracking and model logging with MLflow, a prediction API built with FastAPI, and local containerization with Docker to test deployment." },
+  { title: "Alzheimer's Disease", sub: "MLOps pipeline", cat: "AI", d: "Contributed to a group MLOps pipeline for Alzheimer's disease classification: experiment tracking and model logging with MLflow, a prediction API built with FastAPI, and local containerization with Docker to test deployment." },
   { title: "HACK EL MAKEN", sub: "1st prize · Hackathon", cat: "Web", d: "Online booking platform for MAKAN site activities (calligraphy, coworking, design lab…).", badge: "1st prize" },
-  { title: "Year-end Integrated Project", sub: "E-commerce website", cat: "Web", size: "wide", d: "Design of an e-commerce website for clothing and accessories." },
 ];
 
 export const skills = [
-  { g: "Programming", items: ["Python", "R", "C++", "JavaScript", "PHP", "SQL", "HTML/CSS"] },
-  { g: "BI & Data", items: ["Power BI", "DAX", "Power Query", "ETL", "Dimensional Modeling", "Heflo"] },
-  { g: "AI & ML", items: ["Deep Learning", "Machine Learning", "NLP", "CRISP-DM", "TensorFlow/Keras", "Scikit-learn", "Medical Image Processing"] },
-  { g: "Databases", items: ["Oracle", "MongoDB", "MySQL", "SQL Server"] },
-  { g: "Frameworks", items: ["Node.js", "Symfony", "JavaFX", "FlutterFlow", "FastAPI"] },
-  { g: "Methods & Tools", items: ["Merise", "UML", "Statistical Analysis", "VS Code", "StarUML", "Cisco Packet Tracer", "Git", "SSIS", "Claude/MCP", "Docker", "MLflow", "MLOps"] },
+  { g: "AI & Machine Learning", items: ["Machine Learning", "Deep Learning (TensorFlow/Keras)", "NLP", "Generative AI", "Diffusion models", "Prompt engineering", "Scikit-learn", "XGBoost", "CRISP-DM", "Statistical analysis"] },
+  { g: "Programming", items: ["Python (pandas, NumPy)", "R", "SQL", "C++", "JavaScript", "PHP", "HTML/CSS"] },
+  { g: "Data & BI", items: ["Power BI", "DAX", "Power Query", "ETL (SSIS)", "Dimensional modeling"] },
+  { g: "Databases", items: ["PostgreSQL", "SQL Server", "Oracle", "MySQL", "MongoDB"] },
+  { g: "MLOps & tools", items: ["Git", "Docker", "MLflow", "FastAPI", "Claude/MCP", "Node.js", "Symfony", "JavaFX", "FlutterFlow"] },
 ];
 
 export const education = [
-  { school: "ESEO Angers", deg: "Exchange Semester — DISA Specialization, Biomedical Track", y: "09/2026 – 02/2027", now: true },
-  { school: "ESPRIT", deg: "2nd year Computer Science Engineering Cycle — École Supérieure Privée d'Ingénierie et de Technologie", y: "2024 – 2026" },
+  { school: "ESEO Angers", deg: "Exchange Semester — DISA program, Biomedical Track", y: "09/2026 – 02/2027", now: true },
+  { school: "ESPRIT", deg: "Engineering degree in Computer Science, Data Science specialization — École Supérieure Privée d'Ingénierie et de Technologie (degree awarded after the final-year internship)", y: "2024 – 2027" },
   { school: "ESEN, University of Manouba", deg: "Bachelor's Degree in Business Computing, Business Intelligence Track", y: "2022 – 2024" },
-  { school: "Lycée Ibn Rachik, Ezzahra", deg: "Baccalaureate in Experimental Sciences", y: "2020 – 2021" },
 ];
 
 export const languages = [
@@ -119,9 +115,8 @@ export const beyond = [
   },
   {
     org: "AIESEC University",
-    role: "Member",
-    school: "IR and Data Department",
-    d: "Middle Manager MoGX+TM Specialist_IM (outgoing global volunteer/talent marketing, talent management, information management).",
+    role: "IR & Data Department",
+    school: "Middle Manager MoGX+TM",
     tags: ["IR & Data", "Talent management", "Information management", "Global volunteer programs"],
     icon: "◉",
   },
