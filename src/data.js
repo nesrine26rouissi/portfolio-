@@ -1,4 +1,4 @@
-const GH = "https://github.com/nesrine26rouissi";
+﻿const GH = "https://github.com/nesrine26rouissi";
 
 export const profile = {
   name: "Nesrine Rouissi",
@@ -84,7 +84,7 @@ export const projects = [
 ];
 
 export const skills = [
-  { g: "AI & Machine Learning", items: ["Machine Learning", "Deep Learning (TensorFlow/Keras)", "NLP", "Generative AI", "Diffusion models", "Prompt engineering", "Scikit-learn", "XGBoost", "CRISP-DM", "Statistical analysis"] },
+  { g: "AI & Machine Learning", items: ["Machine Learning", "Deep Learning (TensorFlow/Keras)", "NLP", "Generative AI", "LLM", "RAG", "OCR", "Computer vision", "Diffusion models", "Prompt engineering", "Scikit-learn", "XGBoost", "CRISP-DM", "Statistical analysis"] },
   { g: "Programming", items: ["Python (pandas, NumPy)", "R", "SQL", "C++", "JavaScript", "PHP", "HTML/CSS"] },
   { g: "Data & BI", items: ["Power BI", "DAX", "Power Query", "ETL (SSIS)", "Dimensional modeling"] },
   { g: "Databases", items: ["PostgreSQL", "SQL Server", "Oracle", "MySQL", "MongoDB"] },
@@ -121,3 +121,5 @@ export const beyond = [
     icon: "◉",
   },
 ];
+
+
